@@ -1,0 +1,121 @@
+@import "color";
+@import "font";
+@import "button";
+@import "mixins";
+
+html,body{
+	width: 100%;
+}
+body
+{
+	width:100%;
+	overflow-x: hidden;
+}
+
+.right-md
+{
+	text-align:right;
+}
+.s475
+{
+	display:none;
+}
+.inline
+{
+	display:inline-block;
+}
+.w100
+{
+	width:100%;
+}
+.in-bl
+{
+	display:inline-block;
+}
+
+.flex
+{
+	display: flex;
+	display: -webkit-flex;
+}
+
+.v-middle
+{
+   -webkit-align-items: center;
+   align-items: center;
+}
+.h-center
+{
+	-webkit-justify-content: center;
+   justify-content: center
+}
+.f-right
+{
+	margin-left:auto;
+}
+.f-left
+{
+	margin-right:auto;
+}
+
+
+a:hover
+{
+	text-decoration:none;	
+}
+a:focus
+{
+	text-decoration:none;	
+}
+.max-window
+{
+	width: 100%;
+	display: block;
+	
+}
+.no-padding
+{
+	padding:0px;
+}
+.no-float
+{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+.no-padding-left
+{
+	padding-left: 0px;
+}
+.no-padding-right
+{
+ padding-right: 0px;
+}
+.no-margin {
+	margin:0;
+}
+.block
+{
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	width:100%;
+}
+
+
+// TABLE CELL
+.table-cell
+{
+	display:table;
+	height: 100%;
+	width:100%;
+}
+
+.v-align
+{
+	display:table-cell;
+	vertical-align:middle;
+	float: none;
+	width:100%
+}
+
